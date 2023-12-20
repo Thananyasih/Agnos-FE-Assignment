@@ -1,0 +1,17 @@
+โจทย์คือ สร้างเว็บที่จะมี 2 คำถามที่อยากถามคนไข้ ในหน้าคำถามจะมีคำถาม รูปแล้วก็ปุ่มกดต่อไป เพื่อไปคำถามถัดไปตาม attachment
+
+1. คำถามเรื่องอาการปวดท้อง  คำถามคือ ปวดท้องที่บริเวณใดมากที่สุด? แล้วคนไข้อยากจะบอกว่าปวดท้องตรงส่วนไหนตามรูป (default.png) หากกดรูปก็จะแรเงา(-highlight.png) ส่วนนั้นพร้อมขึ้น caption (-active.png) โดยที่หากกด ปวดทั่วท้องจะแรเงาทั้งหมด แต่จะไม่ขึ้น caption
+โดยที่รูปจะอยู่ตรงกลางของ browser นะครับ
+
+2. คำถามเรื่องอาการปวดที่นิ้ว คำถามคือ จุดไหนที่คุณปวดนิ้วมากที่สุด? โดยใช้ logic เดียวกับข้อด้านบน
+
+พยายามเขียนให้เป็น component ให้ได้มากที่สุดและเขียนไฟล์ config ของรูปแยก
+
+รูปต่างๆจะอยู่ใน attachment ครับ
+
+Bonus point:  Voronoi diagram
+
+Tech stack: React, Javascript, or Typescript , TailwindCSS
+Deployment: deploy the code on frontend cloud platform ex. Vercel, Heroku, Netlify
+To submit homework: reply me via email with 
+URL link of each assignment and github link
