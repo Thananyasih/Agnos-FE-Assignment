@@ -1,6 +1,6 @@
 
 import './App.css';
-import AbsPage from './AbsPage';
+import AbsPage from './pages/AbsPage';
 
 function App() {
   return (
