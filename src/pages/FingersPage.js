@@ -1,8 +1,10 @@
 import React from 'react'
+
 import fingersImage from '../assets/default-finger.png'
 import NextButton from '../components/NextButton'
 
 const FingersPage = () => {
+
   return (
     <div className='m-5 mt-3'>
       <div className="container relative flex flex-col text-center top-0 max-h-full xl:max-w-macScreen 2xl:max-w-fullScreen">
@@ -11,7 +13,7 @@ const FingersPage = () => {
           <img src={fingersImage} alt="Default Fingers"></img>
         </div>
         <div className='container flex flex-col mt-5'>
-          <NextButton/>
+          <NextButton />
         </div>      
       </div>
     </div>
