@@ -25,7 +25,8 @@ module.exports = {
     },
     extend: {
       maxWidth: {
-        'fullscreen': '40rem',
+        'fullScreen': '40rem',
+        'macScreen': '30rem',
       },
       boxShadow: {
         '3xl': '0 2px 10px -1px rgba(0, 0, 0, 0.5)',
