@@ -22,16 +22,15 @@ const AbsPage = () => {
             <div className='flex flex-col relative items-center'>
               <img src={absImage} alt="Default Abs" className='relative'/>
 
-              {!isAllPain ? <img src={absImage} alt="Default Abs" className='absolute'/> :
+              {!isAllPain ? <img src={absImage} alt="Default Abs" className='absolute'/> && (<div className='absolute'>
+                      <AbsSelectPain/>
+                </div>) :
                 (
                   <div className='absolute'>
                     <AbsAllPain/>
                     <img src={absAllPainBtn} alt="All Abs Pain"/>
                   </div>
                 )}
-                <div className='absolute'>
-                      <AbsSelectPain/>
-                </div>
                 <button type='button' className='absolute top-[496px] right-[174px] pl-[75px] pr-[75px] p-[22px] 
                 xl:top-[628px] xl:right-[220px] xl:p-[28px] xl:px-[95px] 
                 2xl:top-[660px] 2xl:right-[235px] 2xl:p-[30px] 2xl:px-[100px] bg-transparent border-gray-300 rounded-full' onClick={handleAllPain}/>
