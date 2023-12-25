@@ -1,7 +1,7 @@
 import React from 'react'
 import PainsData from './PainsData'
 
-const AbsPainPoint = () => {
+const AbsAllPain = () => {
 
   return (
     <div className='container flex flex-row absolute'>
@@ -22,4 +22,4 @@ const AbsPainPoint = () => {
 //     )
 // }
 
-export default AbsPainPoint;
+export default AbsAllPain;
