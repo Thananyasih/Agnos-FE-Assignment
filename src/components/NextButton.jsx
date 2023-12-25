@@ -8,8 +8,9 @@ const NextButton = () => {
 
     const navigate = useNavigate();
 
-    const navigateToFingerpage = () => {
-    navigate('/fingersPainAnalyze');
+    const navigateToFingerpage = (e) => {
+      e.preventDefault();
+      navigate('/fingersPainAnalyze');
     };
 
   return (

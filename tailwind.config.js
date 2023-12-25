@@ -26,10 +26,6 @@ module.exports = {
       center: true,
     },
     extend: {
-      backgroundImage: {
-        // 'all-pain-btn': "url('./assets/all-over-highlight.png')",
-        // 'abs-all-pain': "url('/img/footer-texture.png')",
-      },
       maxWidth: {
         'macScreen': '30rem',
         'smScreen': '30rem',
@@ -41,6 +37,7 @@ module.exports = {
       boxShadow: {
         '3xl': '0 2px 10px -1px rgba(0, 0, 0, 0.5)',
       }
+      
     },
   },
   plugins: [],
