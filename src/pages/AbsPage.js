@@ -38,9 +38,6 @@ const AbsPage = ({}) => {
                 xl:top-[628px] xl:right-[220px] xl:p-[28px] xl:px-[95px] 
                 2xl:top-[660px] 2xl:right-[235px] 2xl:p-[30px] 2xl:px-[100px] bg-transparent border-gray-300 rounded-full' onClick={handleAllPain}/>
             </div>
-              <div className='absolute'>
-                <AbsPainPoint/>
-              </div>
         </div>
         <div className='container relative flex flex-col mt-5'>
           <NextButton />
