@@ -8,8 +8,10 @@ module.exports = {
       'sm': '547px',
       'md': '648px',
       'lg': '768px',
-      'xl': '1024px',
+      'mac': '1024px',
+      'xl': '1480px',
       '2xl': '1680px',
+      '3xl': '1750px',
     },
     fontSize: {
       "sm": '1.6rem',
@@ -25,11 +27,17 @@ module.exports = {
     },
     extend: {
       maxWidth: {
-        'fullscreen': '40rem',
+        'macScreen': '30rem',
+        'smScreen': '30rem',
+        'mdScreen': '30rem',
+        'lgScreen': '30rem',
+        'xlScreen': '38rem',
+        'fullScreen': '40rem',
       },
       boxShadow: {
         '3xl': '0 2px 10px -1px rgba(0, 0, 0, 0.5)',
       }
+      
     },
   },
   plugins: [],
