@@ -15,11 +15,4 @@ const AbsAllPain = () => {
     </div>
   )
 }
-
-// const absTopPain = () => {
-//     return (
-//     <img src={PainsData.absPain.absImg.absTop} alt="Epigastrium Pain" className='absolute' />
-//     )
-// }
-
 export default AbsAllPain;

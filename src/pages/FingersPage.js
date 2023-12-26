@@ -3,12 +3,13 @@ import React,{useState} from 'react'
 import fingersImage from '../assets/default-finger.png'
 import othersPain from '../assets/others-highlight.png'
 import NextButton from '../components/NextButton'
+import FingerSelectPain from '../components/FingerSelectPain'
+import FingerAllPain from '../components/FingerAllPain'
 
 const FingersPage = () => {
 
     const [isAllPain, setIsAllPain] = useState(false)
-    // const [isSelected, setIsSelected] = useState(false)
-    
+
     const handleAllPain = () => {
       setIsAllPain(isAllPain => !isAllPain);
     }
@@ -20,9 +21,12 @@ const FingersPage = () => {
           <div className='flex flex-col relative items-center'>
               <img src={fingersImage} alt="Default Abs" className='relative'/>
 
-              {!isAllPain ? <img src={fingersImage} alt="Default Abs" className='absolute'/> :
+              {!isAllPain ? <img src={fingersImage} alt="Default Abs" className='absolute'/> && (<div className='absolute'>
+                      <FingerSelectPain/>
+                </div>) :
                 (
                   <div className='absolute'>
+                    <FingerAllPain/>
                     <img src={othersPain} alt="All Abs Pain"/>
                   </div>
                 )}
