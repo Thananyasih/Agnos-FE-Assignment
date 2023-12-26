@@ -99,7 +99,7 @@ const AbsSelectPain = () => {
         sm:top-[200px] sm:right-[220px] sm:px-[28px] sm:p-[28px]
         lg:top-[200px] lg:right-[220px] lg:px-[28px] lg:p-[28px] 
         xl:top-[258px] xl:right-[280px] xl:px-[35px] xl:p-[35px] 
-        2xl:top-[270px] 2xl:right-[298px] 2xl:p-[36px] rotate-45 rounded-xl bg-red-400' onClick={handleTopAbs}/>
+        2xl:top-[270px] 2xl:right-[298px] 2xl:p-[36px] rotate-45 rounded-xl' onClick={handleTopAbs}/>
 
         {/* Luq Pain Btn */}
         <button type='button' className='absolute top-[242px] right-[175px] px-[27px] p-[26px] 
@@ -108,7 +108,7 @@ const AbsSelectPain = () => {
         sm:top-[240px] sm:right-[170px] sm:px-[28px] sm:p-[28px]
         lg:top-[235px] lg:right-[170px] lg:px-[28px] lg:p-[28px] 
         xl:top-[300px] xl:right-[220px] xl:px-[35px] xl:p-[35px] 
-        2xl:top-[320px] 2xl:right-[230px] 2xl:px-[38px] 2xl:p-[35px] rotate-45 rounded-full  bg-red-400' onClick={handleLuqAbs}/>
+        2xl:top-[320px] 2xl:right-[230px] 2xl:px-[38px] 2xl:p-[35px] rotate-45 rounded-full' onClick={handleLuqAbs}/>
 
         {/* Llq Pain Btn */}
         <button type='button' className='absolute top-[305px] right-[175px] px-[26px] p-[27px] 
@@ -117,7 +117,7 @@ const AbsSelectPain = () => {
         sm:top-[302px] sm:right-[170px] sm:px-[28px] sm:p-[28px]
         lg:top-[305px] lg:right-[170px] lg:px-[26px] lg:p-[26px] 
         xl:top-[385px] xl:right-[220px] xl:px-[33px] xl:p-[33px] 
-        2xl:top-[405px] 2xl:right-[235px] 2xl:px-[32px] 2xl:p-[36px] rotate-45 rounded-3xl  bg-red-400' onClick={handleLlqAbs}/>
+        2xl:top-[405px] 2xl:right-[235px] 2xl:px-[32px] 2xl:p-[36px] rotate-45 rounded-3xl' onClick={handleLlqAbs}/>
 
         {/* Ruq Pain Btn */}        
         <button type='button' className='absolute top-[242px] right-[270px] px-[27px] p-[26px] 
@@ -126,7 +126,7 @@ const AbsSelectPain = () => {
         sm:top-[240px] sm:right-[270px] sm:px-[28px] sm:p-[28px]
         lg:top-[235px] lg:right-[270px] lg:px-[28px] lg:p-[28px] 
         xl:top-[300px] xl:right-[340px] xl:px-[35px] xl:p-[35px] 
-        2xl:top-[320px] 2xl:right-[355px] 2xl:px-[38px] 2xl:p-[35px] -rotate-45 rounded-full  bg-red-400' onClick={handleRuqAbs}/>
+        2xl:top-[320px] 2xl:right-[355px] 2xl:px-[38px] 2xl:p-[35px] -rotate-45 rounded-full' onClick={handleRuqAbs}/>
         
         {/* Rlq Pain Btn */}
         <button type='button' className='absolute top-[305px] right-[275px] px-[26px] p-[27px] 
@@ -135,7 +135,7 @@ const AbsSelectPain = () => {
         sm:top-[302px] sm:right-[270px] sm:px-[28px] sm:p-[28px]
         lg:top-[305px] lg:right-[270px] lg:px-[26px] lg:p-[26px] 
         xl:top-[385px] xl:right-[340px] xl:px-[33px] xl:p-[33px] 
-        2xl:top-[405px] 2xl:right-[365px] 2xl:px-[32px] 2xl:p-[36px] -rotate-45 rounded-3xl  bg-red-400' onClick={handleRlqAbs}/>
+        2xl:top-[405px] 2xl:right-[365px] 2xl:px-[32px] 2xl:p-[36px] -rotate-45 rounded-3xl' onClick={handleRlqAbs}/>
 
         {/* Umbilicus Pain Btn */}        
         <button type='button' className='absolute top-[275px] right-[225px] px-[24px] p-[24px] 
@@ -144,7 +144,7 @@ const AbsSelectPain = () => {
         sm:top-[272px] sm:right-[224px] sm:px-[25px] sm:p-[25px]
         lg:top-[272px] lg:right-[223px] lg:px-[25px] lg:p-[25px] 
         xl:top-[345px] xl:right-[280px] xl:px-[33px] xl:p-[33px] 
-        2xl:top-[370px] 2xl:right-[300px] 2xl:px-[32px] 2xl:p-[32px] -rotate-45 rounded-full  bg-red-400' onClick={handleMidAbs}/>
+        2xl:top-[370px] 2xl:right-[300px] 2xl:px-[32px] 2xl:p-[32px] -rotate-45 rounded-full' onClick={handleMidAbs}/>
 
         {/* Suprapubic Pain Btn */}
         <button type='button' className='absolute top-[335px] right-[222px] px-[25px] p-[27px] 
@@ -153,7 +153,7 @@ const AbsSelectPain = () => {
         sm:top-[335px] sm:right-[220px] sm:px-[28px] sm:p-[28px]
         lg:top-[330px] lg:right-[220px] lg:px-[28px] lg:p-[28px] 
         xl:top-[425px] xl:right-[280px] xl:px-[33px] xl:p-[33px] 
-        2xl:top-[450px] 2xl:right-[295px] 2xl:p-[34px] -rotate-45 rounded-3xl  bg-red-400' onClick={handleBottomAbs}/>
+        2xl:top-[450px] 2xl:right-[295px] 2xl:p-[34px] -rotate-45 rounded-3xl' onClick={handleBottomAbs}/>
 
     </div>
   )
