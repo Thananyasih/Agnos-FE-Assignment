@@ -17,13 +17,13 @@ import absBottomMes from '../assets/suprapubic-active.png'
 
 
 //Fingers Image
-import finsTop from '../assets/dip-highlight.png'
-import finsMid from '../assets/pip-highlight.png'
-import finsBottom from '../assets/mcp-highlight.png'
-//------ Abs Message -----//
-import finsTopMes from '../assets/dip-active.png'
-import finsMidMes from '../assets/pip-active.png'
-import finsBottomMes from '../assets/mcp-active.png'
+import fingTop from '../assets/dip-highlight.png'
+import fingMid from '../assets/pip-highlight.png'
+import fingBottom from '../assets/mcp-highlight.png'
+//------ Fingers Message -----//
+import fingTopMes from '../assets/dip-active.png'
+import fingMidMes from '../assets/pip-active.png'
+import fingBottomMes from '../assets/mcp-active.png'
 
 
 
@@ -50,15 +50,15 @@ const PainsData = {
     },
 
     fingersPain: {
-        finsImg: {
-            finsTop,
-            finsMid,
-            finsBottom,
+        fingImg: {
+            fingTop,
+            fingMid,
+            fingBottom,
         },
-        finsMes: {
-            finsTopMes,
-            finsMidMes,
-            finsBottomMes,
+        fingMes: {
+            fingTopMes,
+            fingMidMes,
+            fingBottomMes,
         }
     },
 

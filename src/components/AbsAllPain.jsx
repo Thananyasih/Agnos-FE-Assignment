@@ -1,7 +1,7 @@
 import React from 'react'
 import PainsData from './PainsData'
 
-const AbsPainPoint = () => {
+const AbsAllPain = () => {
 
   return (
     <div className='container flex flex-row absolute'>
@@ -15,11 +15,4 @@ const AbsPainPoint = () => {
     </div>
   )
 }
-
-// const absTopPain = () => {
-//     return (
-//     <img src={PainsData.absPain.absImg.absTop} alt="Epigastrium Pain" className='absolute' />
-//     )
-// }
-
-export default AbsPainPoint;
+export default AbsAllPain;

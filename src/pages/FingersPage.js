@@ -3,15 +3,12 @@ import React,{useState} from 'react'
 import fingersImage from '../assets/default-finger.png'
 import othersPain from '../assets/others-highlight.png'
 import NextButton from '../components/NextButton'
+import FingerSelectPain from '../components/FingerSelectPain'
+import FingerAllPain from '../components/FingerAllPain'
 
 const FingersPage = () => {
 
     const [isAllPain, setIsAllPain] = useState(false)
-    const [isSelected, setIsSelected] = useState(false)
-    
-    const handleSelect = () => {
-        setIsSelected(isSelected => !isSelected)
-    }   
 
     const handleAllPain = () => {
       setIsAllPain(isAllPain => !isAllPain);
@@ -22,11 +19,14 @@ const FingersPage = () => {
         <div className="justify-items-center flex flex-col border-solid border-2 border-gray-300 rounded-3xl shadow-3xl">
           <h1 className="sm:text-sm md:text-md lg:text-lg xl:text-xl font-sans m-5 mt-8 mb-0 text-gray-600">จุดไหนที่คุณปวดนิ้วมากที่สุด?</h1>
           <div className='flex flex-col relative items-center'>
-              <img src={fingersImage} alt="Default Abs" className='relative' onClick={handleSelect}/>
+              <img src={fingersImage} alt="Default Abs" className='relative'/>
 
-              {!isAllPain ? <img src={fingersImage} alt="Default Abs" className='absolute'/> :
+              {!isAllPain ? <img src={fingersImage} alt="Default Abs" className='absolute'/> && (<div className='absolute'>
+                      <FingerSelectPain/>
+                </div>) :
                 (
                   <div className='absolute'>
+                    <FingerAllPain/>
                     <img src={othersPain} alt="All Abs Pain"/>
                   </div>
                 )}
