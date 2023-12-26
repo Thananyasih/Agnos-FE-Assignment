@@ -31,9 +31,11 @@ const AbsPage = () => {
                     <img src={absAllPainBtn} alt="All Abs Pain"/>
                   </div>
                 )}
-                <button type='button' className='absolute top-[496px] right-[174px] pl-[75px] pr-[75px] p-[22px] 
-                xl:top-[628px] xl:right-[220px] xl:p-[28px] xl:px-[95px] 
-                2xl:top-[660px] 2xl:right-[235px] 2xl:p-[30px] 2xl:px-[100px] bg-transparent border-gray-300 rounded-full' onClick={handleAllPain}/>
+                <button type='button' className='absolute top-[496px] right-[174px] pl-[75px] pr-[75px] p-[22px]
+                fold:top-[240px] fold:right-[70px] fold:px-[50px] fold:p-[15px] xs:top-[310px] xs:right-[105px] 
+                lg:top-[495px] lg:right-[175px] lg:p-[22px] lg:px-[80px] sm:top-[495px] sm:right-[170px] sm:p-[23px] sm:px-[80px] xl:top-[628px] xl:right-[220px] xl:p-[28px] xl:px-[95px] 
+                2xl:top-[660px] 2xl:right-[235px] 2xl:p-[30px] 2xl:px-[100px] border-gray-300 rounded-full' onClick={handleAllPain}/>
+                
             </div>
         </div>
         <div className='container relative flex flex-col mt-5'>
