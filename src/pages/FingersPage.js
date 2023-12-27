@@ -4,7 +4,6 @@ import fingersImage from '../assets/default-finger.png'
 import othersPain from '../assets/others-highlight.png'
 import NextButton from '../components/NextButton'
 import FingerSelectPain from '../components/FingerSelectPain'
-import FingerAllPain from '../components/FingerAllPain'
 
 const FingersPage = () => {
 
@@ -27,7 +26,6 @@ const FingersPage = () => {
                 </div>) :
                 (
                   <div className='absolute'>
-                    <FingerAllPain/>
                     <img src={othersPain} alt="All Abs Pain"/>
                   </div>
                 )}
